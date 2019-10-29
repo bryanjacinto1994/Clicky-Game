@@ -25,7 +25,7 @@ class App extends Component {
     this.state.cards.forEach(card => { card.count = 0; });
 
     alert(`End Game \n Your Score: ${this.state.currentScore}`);
-    this.setState({ score: 0 });
+    this.setState({ currentScore: 0 });
     return true;
   }
 
@@ -34,8 +34,8 @@ class App extends Component {
 
       if (i.id === id) {
         if (cards[j].count === 0) {
-          cards[j].count = cards[j].count++;
-          this.setState({ score: this.state.currentScore + 1 }, function () {
+          cards[j].count = cards[j].count +1 ;
+          this.setState({ currentScore: this.state.currentScore + 1 }, function () {
             console.log(this.state.currentScore);
           });
           this.state.cards.sort(() => Math.random() - 0.5)
@@ -51,7 +51,7 @@ class App extends Component {
   render() {
       return (
         <Wrapper>
-          <Header score={this.state.currentScore} highScore = {this.state.highScore}>Naruto Memory Game</Header>
+          <Header currentScore={this.state.currentScore} highScore = {this.state.highScore}>Naruto Memory Game</Header>
           {this.state.cards.map(card => (
             <Card trackCounter = {this.trackCounter} id = {card.id} key = {card.id} image = {card.image} />
           ))}
