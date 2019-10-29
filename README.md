@@ -12,6 +12,9 @@ https://github.com/bryanjacinto1994/Clicky-Game
 
 <hr>
 
+### Screenshots:
+
+![Site](./screenshotclicky.png)
 
 ## Tools Used:
 
