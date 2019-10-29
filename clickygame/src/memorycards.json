@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name" : "Naruto",
+        "image":"https://img1.looper.com/img/gallery/who-is-the-strongest-naruto-character-ever/intro-1565897681.jpg",
+        "count": 0
+    },
+    {
+        "id": 2,
+        "name" : "Lee",
+        "image":"https://vignette.wikia.nocookie.net/naruto/images/9/97/Rock_Lee_Part_I.png/revision/latest?cb=20181229065526",
+        "count": 0
+    },
+    {
+        "id": 3,
+        "name" : "Gaara",
+        "image":"https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/5892/540160-naruto_gaara0537.jpg",
+        "count": 0
+    },
+    {
+        "id": 4,
+        "name" : "Kakashi",
+        "image":"https://vignette.wikia.nocookie.net/naruto/images/2/27/Kakashi_Hatake.png/revision/latest?cb=20170628120149",
+        "count": 0
+    },
+    {
+        "id": 5,
+        "name" : "Sasuke",
+        "image":"https://vignette.wikia.nocookie.net/naruto/images/2/21/Sasuke_Part_1.png/revision/latest?cb=20170716092103",
+        "count": 0
+    },
+    {
+        "id": 6,
+        "name" : "Hinata",
+        "image":"https://vignette.wikia.nocookie.net/naruto/images/9/97/Hinata.png/revision/latest?cb=20141010104729",
+        "count": 0
+    },
+    {
+        "id": 7,
+        "name" : "Sakura",
+        "image":"https://vignette.wikia.nocookie.net/naruto/images/a/a5/Sakura_Part_III.png/revision/latest/scale-to-width-down/300?cb=20170726100410",
+        "count": 0
+    },
+    {
+        "id": 8,
+        "name" : "Tenten",
+        "image":"https://vignette.wikia.nocookie.net/naruto/images/d/da/Tenten_Part_1.png/revision/latest?cb=20180510203032",
+        "count": 0
+    },
+    {
+        "id": 9,
+        "name" : "Choji",
+        "image":"http://img2.wikia.nocookie.net/__cb20101028131824/denaruto3/de/images/8/85/Choujijung02.png",
+        "count": 0
+    },
+    {
+        "id": 10,
+        "name" : "Shikumaru",
+        "image":"https://vignette.wikia.nocookie.net/naruto/images/9/9a/Shikamaru_Nara.png/revision/latest/scale-to-width-down/300?cb=20180701024126",
+        "count": 0
+    },
+    {
+        "id": 11,
+        "name" : "Pervy Sage",
+        "image":"https://pbs.twimg.com/profile_images/613423113599086592/qu8-TEVH_400x400.jpg",
+        "count": 0
+    },
+    {
+        "id": 12,
+        "name" : "Tsunade",
+        "image":"https://vignette.wikia.nocookie.net/naruto/images/e/e6/Tsunade_Infobox.png/revision/latest?cb=20180316171919",
+        "count": 0
+    }
+]
