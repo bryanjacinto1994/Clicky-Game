@@ -88,15 +88,22 @@ state = {
   endGame = () => {
 
     if (this.state.currentScore > this.state.highScore) {
-      this.setState({ highScore: this.state.currentScore }, function () {
+      this.setState({ 
+      highScore: this.state.currentScore 
+      }, 
+      function () {
         console.log(this.state.highScore);
       });
     }
 
-    this.state.cards.forEach(card => { card.count = 0; });
+    this.state.cards.forEach(card => { 
+    card.count = 0; 
+    });
 
     alert(`End Game \n Your Score: ${this.state.currentScore}`);
-    this.setState({ currentScore: 0 });
+    this.setState({ 
+    currentScore: 0 
+    });
     return true;
   }
 ```
